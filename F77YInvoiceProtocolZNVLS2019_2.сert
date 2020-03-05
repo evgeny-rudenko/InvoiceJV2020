@@ -1,0 +1,9 @@
+<xml>
+  <Certificate>
+    <ModuleName>F77YInvoiceProtocolZNVLS2019_2.dll</ModuleName>
+    <ModuleHash>TqIAx3SZkkHPichfNgrbUQ==</ModuleHash>
+    <CertificateDate>2019-12-27T17:34:16.991</CertificateDate>
+    <Generator>SRV-01</Generator>
+    <Signature>mJgpkQiXbtRfvPOh8Rq/9a9EIoNERutkpsnPh1xIv67g8OnuhjsClOc20kyon6hdO5CrN/US+cnl4G7XEql1a7uusoSnX4Q1LyHZh3iCOeiFj0at2jDD7sx1sMRID5+Ocm+Saw2L7b7UBkQG3gPeQlQIxNPWzHc0K6t+UoifYqM=</Signature>
+  </Certificate>
+</xml>
