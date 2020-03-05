@@ -1,122 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition">
-  <DataSources>
-    <DataSource Name="DummyDataSource">
-      <ConnectionProperties>
-        <DataProvider>SQL</DataProvider>
-        <ConnectString />
-      </ConnectionProperties>
-      <rd:DataSourceID>58b774e9-8325-4bbb-b17b-7baa145d3aa5</rd:DataSourceID>
-    </DataSource>
-  </DataSources>
-  <DataSets>
-    <DataSet Name="InvoiceProtocolZNVLS_DS_Table0">
-      <Fields>
-        <Field Name="GOODS_NAME">
-          <DataField>GOODS_NAME</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="SERIES_NAME">
-          <DataField>SERIES_NAME</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="PRODUCER_NAME">
-          <DataField>PRODUCER_NAME</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="REGISTER_PRICE">
-          <DataField>REGISTER_PRICE</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="PRICE_PROD">
-          <DataField>PRICE_PROD</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="ADPRICE_SUP">
-          <DataField>ADPRICE_SUP</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="ADPRICE_SUP_SUM">
-          <DataField>ADPRICE_SUP_SUM</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="PRICE_SUP">
-          <DataField>PRICE_SUP</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="ADPRICE_SAL">
-          <DataField>ADPRICE_SAL</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="ADPRICE_SAL_SUM">
-          <DataField>ADPRICE_SAL_SUM</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="PRICE_SAL">
-          <DataField>PRICE_SAL</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="PRICE_PROD_WNDS">
-          <DataField>PRICE_PROD_WNDS</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="PRICE_SUP_WNDS">
-          <DataField>PRICE_SUP_WNDS</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="MNN">
-          <DataField>MNN</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="BARCODE">
-          <DataField>BARCODE</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-      </Fields>
-      <Query>
-        <DataSourceName>DummyDataSource</DataSourceName>
-        <CommandText>/* Local Query */</CommandText>
-        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
-      </Query>
-      <rd:DataSetInfo>
-        <rd:DataSetName>InvoiceProtocolZNVLS_DS</rd:DataSetName>
-        <rd:SchemaPath>e:\Program_eF2\F22MInvoiceProtocolZNVLS_2016\F22MInvoiceProtocolZNVLS_2016.xsd</rd:SchemaPath>
-        <rd:TableName>Table0</rd:TableName>
-        <rd:TableAdapterFillMethod />
-        <rd:TableAdapterGetDataMethod />
-        <rd:TableAdapterName />
-      </rd:DataSetInfo>
-    </DataSet>
-    <DataSet Name="InvoiceProtocolZNVLS_DS_Table1">
-      <Fields>
-        <Field Name="FR_NAME">
-          <DataField>FR_NAME</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="TO_NAME">
-          <DataField>TO_NAME</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="DIR">
-          <DataField>DIR</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-      </Fields>
-      <Query>
-        <DataSourceName>DummyDataSource</DataSourceName>
-        <CommandText>/* Local Query */</CommandText>
-        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
-      </Query>
-      <rd:DataSetInfo>
-        <rd:DataSetName>InvoiceProtocolZNVLS_DS</rd:DataSetName>
-        <rd:SchemaPath>Z:\еФарма2\Разработка отчетов и внешних модулей\Отчеты\Новая больница\Приходная накладная\InvoiceProtocolZNVLS\InvoiceProtocolZNVLS_DS.xsd</rd:SchemaPath>
-        <rd:TableName>Table1</rd:TableName>
-        <rd:TableAdapterFillMethod />
-        <rd:TableAdapterGetDataMethod />
-        <rd:TableAdapterName />
-      </rd:DataSetInfo>
-    </DataSet>
-  </DataSets>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
   <Body>
     <ReportItems>
       <Textbox Name="textbox2">
@@ -262,75 +145,75 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>0.68244in</Width>
+              <Width>1.7334cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1.12556in</Width>
+              <Width>2.85892cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.42745in</Width>
+              <Width>1.08572cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.61983in</Width>
+              <Width>1.57437cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.47065in</Width>
+              <Width>1.19545cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.45858in</Width>
+              <Width>1.16479cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.46893in</Width>
+              <Width>1.19108cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.57038in</Width>
+              <Width>1.44877cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.43033in</Width>
+              <Width>1.09304cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.35489in</Width>
+              <Width>0.90142cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.36693in</Width>
+              <Width>0.932cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.38692in</Width>
+              <Width>0.98278cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.42388in</Width>
+              <Width>1.07666cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.44258in</Width>
+              <Width>1.12415cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.50445in</Width>
+              <Width>1.2813cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.47383in</Width>
+              <Width>1.20353cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.39351in</Width>
+              <Width>0.99952cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.35097in</Width>
+              <Width>0.89146cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.48638in</Width>
+              <Width>1.23541cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.42621in</Width>
+              <Width>1.08257cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.59055in</Width>
+              <Width>1.5cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>0.578in</Width>
+              <Width>1.46812cm</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>1.18127in</Height>
+              <Height>3.00043cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -823,7 +706,7 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.63665in</Height>
+              <Height>1.61709cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -1758,7 +1641,7 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.20956in</Height>
+              <Height>0.53228cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -2426,7 +2309,7 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.19685in</Height>
+              <Height>0.5cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -2489,7 +2372,6 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
-                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
                 <TablixCell>
@@ -3228,7 +3110,7 @@
         <Top>3.1775cm</Top>
         <Left>0.1cm</Left>
         <Height>5.6498cm</Height>
-        <Width>28.02445cm</Width>
+        <Width>28.02446cm</Width>
         <ZIndex>5</ZIndex>
         <Style />
       </Tablix>
@@ -3288,7 +3170,7 @@
             </Style>
           </Paragraph>
         </Paragraphs>
-        <Top>9.2773cm</Top>
+        <Top>9.55091cm</Top>
         <Left>21.41759cm</Left>
         <Height>0.4cm</Height>
         <Width>4.75cm</Width>
@@ -3668,7 +3550,7 @@
             </Style>
           </Paragraph>
         </Paragraphs>
-        <Top>9.2773cm</Top>
+        <Top>9.55091cm</Top>
         <Left>6.89114cm</Left>
         <Height>0.4cm</Height>
         <Width>4.75cm</Width>
@@ -3829,7 +3711,7 @@
             </Style>
           </Paragraph>
         </Paragraphs>
-        <Top>9.2773cm</Top>
+        <Top>9.55091cm</Top>
         <Left>0.14115cm</Left>
         <Height>1.3cm</Height>
         <Width>6.4cm</Width>
@@ -4629,6 +4511,40 @@
           </RightBorder>
         </Style>
       </Textbox>
+      <Textbox Name="Textbox20">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Выводцева Я.Н.</Value>
+                <Style>
+                  <FontSize>8pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox20</rd:DefaultName>
+        <Top>9.00369cm</Top>
+        <Left>21.41759cm</Left>
+        <Height>0.6cm</Height>
+        <Width>4.75cm</Width>
+        <ZIndex>47</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
     </ReportItems>
     <Height>15.42938cm</Height>
     <Style />
@@ -4654,8 +4570,126 @@
     <ColumnSpacing>1cm</ColumnSpacing>
     <Style />
   </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:DataSourceID>58b774e9-8325-4bbb-b17b-7baa145d3aa5</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="InvoiceProtocolZNVLS_DS_Table0">
+      <Query>
+        <DataSourceName>DummyDataSource</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <Fields>
+        <Field Name="GOODS_NAME">
+          <DataField>GOODS_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SERIES_NAME">
+          <DataField>SERIES_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PRODUCER_NAME">
+          <DataField>PRODUCER_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="REGISTER_PRICE">
+          <DataField>REGISTER_PRICE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PRICE_PROD">
+          <DataField>PRICE_PROD</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ADPRICE_SUP">
+          <DataField>ADPRICE_SUP</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ADPRICE_SUP_SUM">
+          <DataField>ADPRICE_SUP_SUM</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PRICE_SUP">
+          <DataField>PRICE_SUP</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ADPRICE_SAL">
+          <DataField>ADPRICE_SAL</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ADPRICE_SAL_SUM">
+          <DataField>ADPRICE_SAL_SUM</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PRICE_SAL">
+          <DataField>PRICE_SAL</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PRICE_PROD_WNDS">
+          <DataField>PRICE_PROD_WNDS</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PRICE_SUP_WNDS">
+          <DataField>PRICE_SUP_WNDS</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MNN">
+          <DataField>MNN</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="BARCODE">
+          <DataField>BARCODE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>InvoiceProtocolZNVLS_DS</rd:DataSetName>
+        <rd:SchemaPath>e:\Program_eF2\F22MInvoiceProtocolZNVLS_2016\F22MInvoiceProtocolZNVLS_2016.xsd</rd:SchemaPath>
+        <rd:TableName>Table0</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="InvoiceProtocolZNVLS_DS_Table1">
+      <Query>
+        <DataSourceName>DummyDataSource</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <Fields>
+        <Field Name="FR_NAME">
+          <DataField>FR_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TO_NAME">
+          <DataField>TO_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DIR">
+          <DataField>DIR</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>InvoiceProtocolZNVLS_DS</rd:DataSetName>
+        <rd:SchemaPath>Z:\еФарма2\Разработка отчетов и внешних модулей\Отчеты\Новая больница\Приходная накладная\InvoiceProtocolZNVLS\InvoiceProtocolZNVLS_DS.xsd</rd:SchemaPath>
+        <rd:TableName>Table1</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
   <Language>ru-RU</Language>
   <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
-  <rd:ReportID>c68c84fb-de95-451f-94a6-dcdda04035ed</rd:ReportID>
   <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>c68c84fb-de95-451f-94a6-dcdda04035ed</rd:ReportID>
 </Report>
